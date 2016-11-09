@@ -9,7 +9,7 @@
         image: 'travis/flipactual/pace-yourself.svg'
         link: 'https://travis-ci.org/flipactual/pace-yourself/'
 - text: 'A priority queue and consumer'
-- jsdoc: './lib/PriorityQueue.js'
-- jsdoc: './lib/QueueConsumer.js'
+- jsdoc: './PaceYourself/PriorityQueue.js'
+- jsdoc: './PaceYourself/QueueConsumer.js'
 - include: './docs/scripts.md'
 - license: true

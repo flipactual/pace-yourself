@@ -1,6 +1,6 @@
 {
   "name": "pace-yourself",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A priority queue and consumer",
   "repository": "flipactual/pace-yourself",
   "license": "MIT",
@@ -21,10 +21,8 @@
     "compile": "babel PaceYourself/** -d lib",
     "prepublish": "npm run compile"
   },
-  "dependencies": {
-    "ava": "^0.16.0"
-  },
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-cli": "^6.18.0",
     "babel-eslint": "^7.1.0",
     "babel-preset-es2015": "^6.18.0",
