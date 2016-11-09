@@ -1,0 +1,15 @@
+- title: true
+- shields:
+    style: 'flat-square'
+    shields:
+      - alt: 'flipactual'
+        image: 'badge/😋-flipactual-218AC7.svg'
+        link: 'https://www.flipactual.com/'
+      - alt: 'Travis'
+        image: 'travis/flipactual/pace-yourself.svg'
+        link: 'https://travis-ci.org/flipactual/pace-yourself/'
+- text: 'A priority queue and consumer'
+- jsdoc: './lib/PriorityQueue.js'
+- jsdoc: './lib/QueueConsumer.js'
+- include: './docs/scripts.md'
+- license: true
