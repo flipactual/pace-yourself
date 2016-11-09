@@ -1,6 +1,6 @@
 {
   "name": "pace-yourself",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A priority queue and consumer",
   "repository": "flipactual/pace-yourself",
   "license": "MIT",
@@ -12,13 +12,13 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "lib/PaceYourself/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "nyc ava",
     "coverage": "nyc report --reporter=html ava && open ./coverage/index.html",
     "lint": "eslint .",
     "readme": "emdaer",
-    "compile": "babel PaceYourself/** -d lib",
+    "compile": "babel src -d lib",
     "prepublish": "npm run compile"
   },
   "devDependencies": {

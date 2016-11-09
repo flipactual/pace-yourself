@@ -1,5 +1,5 @@
 const test = require('ava');
-const { PriorityQueue } = require('../PaceYourself');
+const { PriorityQueue } = require('../src');
 
 test('Creates a priority queue', t => {
   t.plan(4);

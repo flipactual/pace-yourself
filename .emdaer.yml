@@ -15,7 +15,7 @@
         image: 'npm/v/pace-yourself.svg'
         link: 'http://npmjs.com/package/pace-yourself'
 - text: 'A priority queue and consumer'
-- jsdoc: './PaceYourself/PriorityQueue.js'
-- jsdoc: './PaceYourself/QueueConsumer.js'
+- jsdoc: './src/PriorityQueue.js'
+- jsdoc: './src/QueueConsumer.js'
 - include: './docs/scripts.md'
 - license: true
