@@ -1,6 +1,6 @@
 {
   "name": "pace-yourself",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A priority queue and consumer",
   "repository": "flipactual/pace-yourself",
   "license": "MIT",

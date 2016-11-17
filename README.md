@@ -2,6 +2,7 @@
 
 [![flipactual](https://img.shields.io/badge/😋-flipactual-218AC7.svg?style=flat-square)](https://www.flipactual.com/)
 [![Travis](https://img.shields.io/travis/flipactual/pace-yourself.svg?style=flat-square)](https://travis-ci.org/flipactual/pace-yourself/)
+[![Codecov](https://img.shields.io/codecov/c/github/flipactual/pace-yourself.svg?style=flat-square)](https://codecov.io/gh/flipactual/pace-yourself/)
 [![Node](https://img.shields.io/node/v/pace-yourself.svg?style=flat-square)](http://npmjs.com/package/pace-yourself)
 [![NPM](https://img.shields.io/npm/v/pace-yourself.svg?style=flat-square)](http://npmjs.com/package/pace-yourself)
 
