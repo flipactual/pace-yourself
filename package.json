@@ -1,6 +1,6 @@
 {
   "name": "pace-yourself",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A priority queue and consumer",
   "repository": "flipactual/pace-yourself",
   "license": "MIT",
@@ -16,6 +16,7 @@
   "scripts": {
     "test": "nyc ava",
     "coverage": "nyc report --reporter=html ava && open ./coverage/index.html",
+    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "lint": "eslint .",
     "readme": "emdaer",
     "compile": "babel src -d lib",
@@ -31,6 +32,7 @@
     "babel-preset-stage-1": "^6.16.0",
     "babel-preset-stage-2": "^6.18.0",
     "babel-preset-stage-3": "^6.17.0",
+    "codecov": "^1.0.1",
     "emdaer": "^0.3.2",
     "eslint": "^3.9.1",
     "eslint-config-airbnb-base": "^5.0.3",
