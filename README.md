@@ -135,6 +135,12 @@ npm run lint
 npm run readme
 ```
 
+### `compile` – compile the code
+
+```sh
+npm run compile
+```
+
 ## License
 
 MIT @ [Flip](https://github.com/flipactual)
